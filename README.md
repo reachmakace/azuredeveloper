@@ -13,11 +13,8 @@ Azure App Service is an HTTP-based service for hosting web applications, REST AP
 **Deployment slot:** When deploying a web app you can use a separate deployment slot instead of the default production slot when you're running in the Standard App Service Plan tier or better
 
 **App Service on Linux**: App Service can also host web apps natively on Linux for supported application stacks. It can also run custom Linux containers (also known as Web App for Containers).  The languages, and their supported versions, are updated regularly. You can retrieve the current list by using the following command in the Cloud Shell (az webapp list-runtimes --os-type linux)
-  Limitations:
+  **Limitations:**
     App Service on Linux isn't supported on Shared pricing tier.
-    
     The Azure portal shows only features that currently work for Linux apps. As features are enabled, they're activated on the portal.
-    
     When deployed to built-in images, it uses Content volumes supported by Azure storage. More latency
-    
     When deployed using custom container image, it uses Container filesystem.
