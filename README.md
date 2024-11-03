@@ -41,6 +41,8 @@ The pricing tier of an App Service plan determines what App Service features you
 The App Service plan is the scale unit of the App Service apps. If the plan is configured to run five VM instances, then all apps in the plan run on all five instances. If the plan is configured for autoscaling, then all apps in the plan are scaled out together based on the autoscale settings.
 
 Isolate your app into a new App Service plan when:
-The app is resource-intensive. 
+The app is resource-intensive.
+
 You want to scale the app independently from the other apps in the existing plan. 
+
 The app needs resource in a different geographical region. 
